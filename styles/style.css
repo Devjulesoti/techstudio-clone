@@ -6,12 +6,9 @@
     margin: 0;
     padding: 0;
     font-family: 'PT Sans', sans-serif; 
-    /* width: 100%;    */
 }
 body{
     background-color: white;
-    /* width: 80%; */
-    /* margin: 0 auto; */
 }
 header{
     background-color: white;
@@ -21,36 +18,35 @@ header{
     padding: 3px 0;
 }
 header img{
-    width: 30px;
+    width: 25px;
 }
 .logotext{
     display: flex;
+    justify-content: center;
     align-items: center;
+    margin-left: 20px;
 }
 .logo-text{
-    margin-left: 10px ;
+    margin-left: 3px ;
 }
 .logo-text h3{
     font-size: 11px;
-    margin-bottom: 0;
+    margin: 0;
+    font-weight: bold;
 }
 .logo-text p{
     font-size: 10px;
-    margin-top: 5px;
-
+    margin: 0;
 }
 .navlinks ul{
     display: flex;
     margin-left: 200px;
-    
 }
 .navlinks ul li{
-   
    list-style-type: none;
-   
 }
 .navlinks ul li a{
-    color: blue;
+    color: #007BFF;
     text-decoration: none;
     font-size: 10.5px;
     margin-left: 25px;
@@ -62,24 +58,23 @@ header img{
 }
 .sec-1{
     background-image: url(../images/background1.jpeg);
-    background-color: red;
+    height: 400px;
+}
+.sec1-con{
     color: white;
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
+     margin-left: 50px;
+    margin-right: 50px;
     height: 400px;
-    /* margin: 0 auto; */
-  
 }
-.sec-1 .left{
-    /* background-color: brown; */
-    padding-left: 25px;
-    padding-right: 10px;
+.sec1-con .left{
+    width: 300px;
 }
 .sec-1 .left h3{
     font-size: 25px;
     font-weight: 600;
-
 }
 #text{
     font-size: 12px;
@@ -92,33 +87,30 @@ header img{
     margin-top: 50px;
 }
 #enrolment h5{
-    /* margin-left: 85px; */
     margin-bottom: 10px;
-}
-.details{
-    display: flex;
-    /* text-align: center; */
-    justify-content: space-between;
-    /* margin: 0 auto; */
-    width: 300px;
-    padding-bottom: 15px;
+    font-size: 15px;
 }
 .details p{
 font-size: 12px;
 font-weight: 400;
+width: 300px;
+margin: 3px 0;
+
+}
+.fa-light{
+    color: white;
 }
 .right{
     background-color: white;
     padding: 15px;
-    margin-right: 15px;
-    height: 330px;
+    width: 350px;
+    height: 270px;
 }
 form{
     background-color: white;
 }
 form p{
-    /* width: 250px; */
-    font-size: 14px;
+    font-size: 13px;
     color: black;
     padding-bottom: 15px;
 }
@@ -134,7 +126,7 @@ form input{
 }
 #lname, #fname{
     display: inline;
-    width: 145px;
+    width: 147px;
     margin-bottom: 10px;
     outline: none;
     border: 1px solid black;
@@ -143,7 +135,7 @@ form input{
     margin-right: 8px;
 }
 .program{
-    background-color: rgb(78, 78, 221);
+    background-color: #007BFF;
     border: none;
     padding: 6px;
     width: 305px;
@@ -155,28 +147,9 @@ form input{
     font-size: 13px;
 }
 
-.sec-2{
-    margin-top: 50px;
-}
 .testimonial img{
     width: 80px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    
-}
-.testimonial{
-    /* border: 2px solid red; */
-    font-size: 12px;
-    /* margin: 0 auto; */
-}
-.testimonial div{
-    /* margin-left: 20px; */
-    /* text-align: justify; */
-    /* border: 2px solid red; */
-
+    border-radius: 50%;  
 }
 .upper{
     display: flex;
@@ -184,60 +157,65 @@ form input{
 }
 .upper div{
     text-align: center;
-    /* width: 300px; */
-
 }
 .upper p{
     text-align: center;
-    line-height: 15px;
-    font-size: 13px;
+    line-height: 17px;
+    font-size: 12px;
 }
 .div3{
     text-align: center;
-    margin-left: 250px;
-    margin-right: 250px;
-    font-size: 13px;
-    /* width: 408px; */
-    /* margin-left: 50px; */
+    margin: 0 auto;
+    width: 350px;
+    line-height: 17px;
+    font-size: 12px;
 }
 .div1{
     margin-right: 20px;
 }
-/* .fa-solid{
-    color: red;
-} */
 .sec-3{
     margin-top: 50px;
-    /* background-color: brown; */
+}
+.sec3-con div{
+width: 200px;
 }
 .sec-3 img{
-    width: 100px;
+    width: 110px;
+}
+.about{
+    font-size: 14px;
+    margin-top: 10px;
 }
 .sec-3 p{
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
 }
 .sec-4{
     margin-top: 30px;
+    background-color: aliceblue;
 }
 .horizontal{
     width: 50px;
-    height: 5px;
-    background-color: green;
+    height: 3px;
+    background-color: #007BFF;
     align-items: center;
     margin-left: 400px;
+}
+.horizon{
+    width: 50px;
+    height: 3px;
+    background-color: #007BFF;
+    align-items: center;
+    margin-left: 160px;
+    margin-bottom: 20px;
 }
 .sec4-con{
     display: flex;
     justify-content: space-around;
-    margin-top: 25px;
-    padding: 15px;
+    padding: 35px;
 }
 .sec-4 img{
     width: 400px;
-}
-.sec-4{
-    /* width: 300px; */
 }
 .sec4-text p{
     font-size: 10px;
@@ -247,7 +225,7 @@ form input{
 
 }
 .sec4-text button{
-    background-color: blue;
+    background-color: #007BFF;
     color: white;
     padding: 10px 12px;
     font-size: 10px;
@@ -268,7 +246,6 @@ padding: 30px;
     font-size: 12px;
     margin-left: 120px;
     margin-right: 120px;
-    /* width: 350px; */
 }
 .sec-5 img{
    width: 100%;
@@ -278,7 +255,6 @@ padding: 30px;
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
-    /* background-color: red; */
 }
 .text-con p{
     font-size: 10px;
@@ -303,14 +279,14 @@ padding: 30px;
 .relative{
     position: relative;
     background-color:whitesmoke;
-    /* box-shadow: 5px 5px black; */
+    padding-top: 30px;
 }
 .relative img{
-    width: 600px;
+    width: 500px;
+    
 }
 .relative-content{
     width: 300px;
-    /* padding-left: 40px; */
     font-size: 10px;
     background-color: white;
     border-radius: 8px;
@@ -319,25 +295,19 @@ padding: 30px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
     position: absolute;
-    top: 70px;
-    right: 100px;
-    bottom: 70px;
+    top: 90px;
+    right: 120px;
+    bottom: 50px;
     box-shadow: 7px 7px 7px rgb(141, 133, 133);
 }
 .rel-text h3{
     font-size: 13px;
-    padding-top: 15px;
     padding-bottom: 5px;
     font-weight: bold;
 }
 .rel-text p{
-    /* padding-top: 10px; */
     line-height: 15px;
     text-align: left;
-}
-.rel-text{
-    padding: 20px;
-    /* border: 2px solid green; */
 }
 .sec-7{
     padding-top: 30px;
@@ -364,7 +334,6 @@ line-height: 20px;
     font-size: 10px;
     text-align: left;
     line-height: 20px;
-    /* width: 380px; */
     padding-left: 5px;
 }
 .career button{
@@ -431,8 +400,119 @@ line-height: 20px;
 }
 .right-sec11{
     color: white;
-    font-size: 10px;
-}
-.right-sec11 h2{
     font-size: 12px;
+}
+.sec-11{
+    background-color: #007BFF;
+}
+.danger-text{
+    font-size: 15px;
+    font-family: 'open sans', 'sans-serif';
+    font-weight: lighter;
+}
+.naira{
+    font-family: 'open sans', 'sans-serif';
+}
+.fa-facebook-f, .fa-instagram, .fa-twitter{
+    color: white;
+    margin-left: 10px;    
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 3   0px;
+    font-family: 'PT Sans', sans-serif; 
+    color: gray
+}
+.foot1 img{
+    width: 20px;
+}
+.foot1 h3{
+    display: inline;
+    font-size: 14px;
+}
+.foot1 p{
+    width: 200px;
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: left;
+}
+.foot1 span{
+    display: block;
+}
+.foot2 h6{
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.foot3 h6{
+font-size: 13px;
+}
+.foot2 input{
+    padding: 8px 5px;
+    font-size: 10px;
+    width: 300px;
+    display: block;
+
+}
+.submit{
+    background-color: #007BFF;
+    border: none;
+    outline: none;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+.foot3{
+    margin: 0;
+
+}
+.register{
+    background-color: #007BFF;
+    color: white;
+    width: 200px;
+    border: none;
+    outline:  none;
+    margin-bottom: 10px;
+    padding: 8px 2px;
+    margin-left: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.register a{
+    color: white;
+    text-decoration: none;
+}
+.fa-whatsapp{
+    color: white;
+    margin-left: 10px;
+}
+
+.whatsapp{
+    position: fixed;
+}
+.whatsapp a{
+    position: fixed;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    background-color: green;
+    bottom: 20px;
+    right: 30px;
+}
+
+.whatsapp i{
+    font-size: 20px;
+    padding: 10px 2px 10px 2px;
 }
